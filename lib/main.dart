@@ -40,23 +40,21 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
 
-    // 🌈 GANTI BAGIAN return Scaffold MENJADI BERIKUT:
     return Scaffold(
       body: Stack(
         fit: StackFit.expand,
         children: [
-          // 🖼 Background Gambar
+        
           Image.asset(
-            'assets/images/bg_pattern.jpg', // pastikan gambar ini ada di assets
+            'assets/images/bg_pattern.jpg', 
             fit: BoxFit.cover,
           ),
 
-          // 🌑 Overlay Transparan (biar elegan)
+        
           Container(
             color: Colors.black.withOpacity(0.3),
           ),
 
-          // 💫 Card Login di Tengah
           Center(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(24),
@@ -77,14 +75,14 @@ class LoginPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    // Gambar Logo / Ilustrasi
+                    
                     Image.asset(
                       'assets/images/nailong.jpg',
                       height: 180,
                     ),
                     const SizedBox(height: 30),
 
-                    // Judul
+                    
                     Text(
                       "Welcome Back!",
                       style: GoogleFonts.poppins(
@@ -100,7 +98,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 30),
 
-                    // Email Field
+                    
                     TextField(
                       decoration: InputDecoration(
                         hintText: 'Email',
@@ -109,7 +107,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
 
-                    // Password Field
+                    
                     TextField(
                       obscureText: true,
                       decoration: InputDecoration(
@@ -119,7 +117,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 24),
 
-                    // Tombol Login
+                    
                     SizedBox(
                       width: width,
                       height: 50,
@@ -144,7 +142,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
 
-                    // Lupa Password
+                    
                     TextButton(
                       onPressed: () {},
                       child: Text(
@@ -154,7 +152,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 10),
 
-                    // Daftar Akun
+                    
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
