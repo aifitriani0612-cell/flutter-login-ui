@@ -18,11 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 ---
 
 
-Tampilan login elegan dengan background blur dan Google Fonts.
+
+![Preview Login UI](assets/images/screenshots/tugas5.png)
 
 
-![Preview Login UI](assets/screenshots/tugas5.png)
-
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/aifitriani0612-cell/flutter-login-ui.git
