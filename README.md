@@ -14,3 +14,19 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+---
+
+# 🌸 Custom Login UI Flutter
+
+Tampilan login elegan dengan background blur dan Google Fonts.
+
+## 📸 Preview
+
+![Preview Login UI](assets/screenshots/tugas5.png)
+
+## 🚀 Cara Menjalankan
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/aifitriani0612-cell/flutter-login-ui.git
