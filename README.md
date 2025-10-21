@@ -17,15 +17,11 @@ samples, guidance on mobile development, and a full API reference.
 
 ---
 
-# 🌸 Custom Login UI Flutter
 
 Tampilan login elegan dengan background blur dan Google Fonts.
 
-## 📸 Preview
 
 ![Preview Login UI](assets/screenshots/tugas5.png)
-
-## 🚀 Cara Menjalankan
 
 1. Clone repository ini:
    ```bash
